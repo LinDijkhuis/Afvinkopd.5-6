@@ -1,0 +1,19 @@
+Eerst het bestand openen. Dan een lijst aanmaken.
+inhoud = file.read() het bestand lezen.
+Vervolgens splitst eerst op (">"), is iets nieuws.( daarna op de enters)
+multiline kijkt naar meerdere regels.
+re.split(">", inhoud, re.MULTILINE)
+van de eerste header tot de tweede header weet die dat die in een lijst moet.
+weet dat het een fasta file is.
+Vervolgens deleten eerste lege deel eruit. del mix[0].
+dan 2d lijst, headers en sequentie in aparte lijst.
+
+for loop:
+maak een header lijst aan
+header, sequentie = fats.split("\n", 1)
+sequentie de enters weghalen.
+de header in een lijst
+de sequentie in een lijst
+dan de lijst aan de grote lijst toevoegen
+print header, sequentie.
+
